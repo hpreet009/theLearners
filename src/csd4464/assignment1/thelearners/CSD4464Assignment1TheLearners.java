@@ -16,6 +16,12 @@ public class CSD4464Assignment1TheLearners {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
     }
+    public static String stringPower(String s, int i)
+                
+        {
+            return null;
+        }
     
 }
