@@ -80,4 +80,13 @@ public class CSD4464Assignment1TheLearnersTest {
         String result = CSD4464Assignment1TheLearners.stringPower(s, i);
         assertEquals(expResult, result);
     }
+    
+      public void testStringAndTwoShouldReturnStringDoubled(){
+       System.out.println("stringPower");
+        String s = "bob";
+        int i = 2 ;
+        String expResult = "bobbob";
+        String result = CSD4464Assignment1TheLearners.stringPower(s, i);
+        assertEquals(expResult, result);
+    }
 }
