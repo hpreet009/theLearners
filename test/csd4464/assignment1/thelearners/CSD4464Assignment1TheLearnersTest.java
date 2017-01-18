@@ -62,7 +62,22 @@ public class CSD4464Assignment1TheLearnersTest {
         assertEquals(expResult, result);
         
     }
+   public void testLessThanOneShouldReturnNull(){
+       System.out.println("stringPower");
+        String s = "";
+        int i =0 ;
+        String expResult = null;
+        String result = CSD4464Assignment1TheLearners.stringPower(s, i);
+        assertEquals(expResult, result);
+        
+   }
     
-    
-    
+    public void testStringAndOneShouldReturnString(){
+       System.out.println("stringPower");
+        String s = "";
+        int i =1 ;
+        String expResult = "a";
+        String result = CSD4464Assignment1TheLearners.stringPower(s, i);
+        assertEquals(expResult, result);
+    }
 }
