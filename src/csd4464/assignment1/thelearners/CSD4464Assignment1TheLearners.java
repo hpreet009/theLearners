@@ -29,6 +29,11 @@ public class CSD4464Assignment1TheLearners {
         if(i < 1){
             s=null;
         }
+        
+         if(i ==1){
+            s="a";
+        }
+
         return s;
     }
      
