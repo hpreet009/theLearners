@@ -21,6 +21,14 @@ public class CSD4464Assignment1TheLearners {
 
     public static String stringPower(String s, int i) {
         
+        
+        if(s.equals(""))
+        {
+            s="";
+        }
+        if(i < 1){
+            s=null;
+        }
         return s;
     }
      

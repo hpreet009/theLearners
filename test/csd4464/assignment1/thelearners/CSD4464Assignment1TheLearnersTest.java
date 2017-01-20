@@ -40,7 +40,7 @@ public class CSD4464Assignment1TheLearnersTest {
     /**
      * Test of main method, of class CSD4464Assignment1TheLearners.
      */
-    @Test
+   /* @Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
@@ -62,7 +62,7 @@ public class CSD4464Assignment1TheLearnersTest {
         assertEquals(expResult, result);
 
     }
-
+    @Test
     public void testLessThanOneShouldReturnNull() {
         System.out.println("stringPower");
         String s = "";
@@ -72,7 +72,7 @@ public class CSD4464Assignment1TheLearnersTest {
         assertEquals(expResult, result);
 
     }
-
+    @Test
     public void testStringAndOneShouldReturnString() {
         System.out.println("stringPower");
         String s = "";
@@ -81,7 +81,7 @@ public class CSD4464Assignment1TheLearnersTest {
         String result = CSD4464Assignment1TheLearners.stringPower(s, i);
         assertEquals(expResult, result);
     }
-
+    @Test
     public void testStringAndTwoShouldReturnStringDoubled() {
         System.out.println("stringPower");
         String s = "bob";
