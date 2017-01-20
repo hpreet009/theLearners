@@ -20,23 +20,29 @@ public class CSD4464Assignment1TheLearners {
     }
 
     public static String stringPower(String s, int i) {
-        
-        
-        if(s.equals(""))
-        {
-            s="";
+
+        String str = "";
+
+        if (s.equals("")) {
+            s = "";
         }
-        if(i < 1){
-            s=null;
-        }
-        
-         if(i ==1){
-            s="a";
+        if (i < 1) {
+            s = null;
         }
 
+        if (i == 1) {
+            s = "a";
+        }
+
+        if (i > 1) {
+            for (int j = 0; j < i; j++) {
+
+                str += s;
+            }
+            s = str;
+
+        }
         return s;
     }
-     
-    
 
 }
